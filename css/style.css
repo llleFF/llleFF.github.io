@@ -26,7 +26,7 @@ body{
     min-height:100%;
     position:relative;
     margin:0;
-    padding:0
+    padding:0;
 	font-family: "Segoe UI". sans-serif;
 }
 a{
@@ -132,7 +132,7 @@ input[type=text].field:focus{
 	background-color: #ececec;
 }
 #menu hr{
-	width: 100px;
+	width: 700px;
 	max-width: 100%;
 }
 #wrapper{
@@ -145,6 +145,27 @@ input[type=text].field:focus{
 	width: 70%;
 	margin-left: 10%;
 }
+.call-us {
+	position: absolute; /* Абсолютное позиционирование */
+    left: 1100px;
+    top: 300px;
+	padding: 1px;
+
+    width: 300px;
+    height: 250px;
+    margin-bottom: 5px;
+    padding: 10px 0 0 10px;
+    font-weight: bold;
+    font-family: Comic Sans MC, serif;
+    background: url(../images/call-us-patch.png) no-repeat left top;
+}
+.call-us .label {color: #321a0a; font-size: 22px; display: block; margin-right: 20px}
+.call-us .pop {
+	color: #cf1a06; 
+    font-size: 25px; 
+    display: block;
+	
+}
 #wrapper #articles article{
 	float: left;
 	border: 1px solid silver;
@@ -154,6 +175,7 @@ input[type=text].field:focus{
 	margin-right: 2%;
     margin-bottom: 10px;
 }
+
 @media (min-width: 700px ){
 #wrapper #articles article{
 	width: 42%;
@@ -210,8 +232,11 @@ input[type=text].field:focus{
 	margin: 20px 0;
 	float: left;
 	background: url("../images/5.jpg") repeat-x center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #main_soc_block_in{
+	margin: 0 auto;
 	padding: 5px;
 	text-align: center;
 	height: 200px;
@@ -240,6 +265,8 @@ footer{
 	padding: 1%;
 	padding-bottom: 3%;
 	background-image: url("../images/28.jpg");
+	
+	
 }
 footer img{
 	
@@ -270,6 +297,7 @@ footer, #page-wrap:after{
    
 }
 /*Контакты*/
+
 
 form input{
 	border-radius: 5px;
@@ -315,11 +343,11 @@ form #send:hover{
 	background-color: #68032c;
 }
 .heading{
-	float: right;
+	float: left;
 	clear: both;
-	width: 50%;
-	padding: 10px;
-	margin-top: -470px;
+	width: 100%;
+
+	margin-top: 3px;
 }
 .heading img{
 	width: 80%;
@@ -331,23 +359,9 @@ form #send:hover{
 	padding: 1px;
 }
 .contact-map{
-	width: 70%;
+	width: 80%;
 }
 
-.call-us {
-	float: right;
-	padding: 1px;
-	margin-top: -240px;
-  width: 300px;
-  height: 220px;
-  margin-bottom: 15px;
-  padding: 24px 0 0 28px;
-  font-weight: bold;
-  font-family: Georgia, serif;
-  background: url(../images/call-us-patch.png) no-repeat left top;
-}
-.call-us .label {color: #321a0a; font-size: 17px; display: block}
-.call-us .pop {color: #cf1a06; font-size: 25px; display: block}
 
 /*Вход*/
 .links{
